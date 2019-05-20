@@ -57,8 +57,8 @@ class TimeMetric:
         text_beat = '{0}'.format(str(beats))
 
         table = texttable.Texttable()
-        table.header(['Normal Time\n (timezone:{0})'.format(str(self.time_zone)), 'Decimal Time\n(standard sec)',
-                      'Decimal Time\n(10h clock)', 'Swatch Internet Time\n(.beats)'])
+        table.header(['Normal Time\n (timezone:{0})'.format(str(self.time_zone)), 'Decimal Minute\n(standard sec)',
+                      'Decimal Day\n(10h clock)', 'Swatch Internet Time\n(.beats)'])
         table.add_row([text_normal_time, text_decimal_standard_sec, text_decimal_10h, text_beat])
         table.set_cols_align(['c', 'c', 'c', 'c'])
         table.set_cols_width([15, 15, 15, 20])
@@ -69,6 +69,6 @@ time_0 = math.floor(time.time())
 while True:
     os.system('cls')
     app.show_time()
-    print('Time spent: {0}s'.format(math.floor(time.time()-time_0)))
+    print('Watch enabled for: {0}s'.format(math.floor(time.time()-time_0)))
     time.sleep(0.1)
     
