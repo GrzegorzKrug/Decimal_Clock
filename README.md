@@ -7,3 +7,4 @@
 +-----------------+-----------------+-----------------+----------------------+
 Watch enabled for: 0s
 
+Application will display Times in diffrent formats.
