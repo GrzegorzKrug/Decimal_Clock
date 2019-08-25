@@ -1,15 +1,15 @@
 # Decimal Clock
 
-## Application will display Times in diffrent formats.
+### Application will display Times in diffrent formats.
 
-### Normal Time
+## Normal Time
 
 	Current time format used in most countries 
 	Day time: 24 hours : 0 mins : 0 sec
 	1 Hour is equal to 60 mins
 	1 Min is equal to 60 sec
 	
-### Decimal Minute
+## Decimal Minute
 
 	1 second is the same as normal second. 
 	Clock is modified to have 100 sec in 1min and 100 mins in 1hour
@@ -17,7 +17,7 @@
 	1 Hour is equal to 100 min
 	1 Min is 100 sec
 
-### Decimal Day
+## Decimal Day
 
 	Clock is scaled to be uniformed. 1 second is scaled.
 	Day time: 10 hours : 0 min : 0 sec	
@@ -25,10 +25,10 @@
 	1 min has 100 sec.
 	
 
-### Swatch Internet Time
+## Swatch Internet Time
 
 	Same as decimal day, but day has 1000 beats. 
-	**They make clocks with this concept!**
+	They make clocks with this concept!
 	Day time: 1000 beats
 
 ## Ignored fact
