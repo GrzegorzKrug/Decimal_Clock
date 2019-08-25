@@ -12,14 +12,13 @@
 ## Decimal Minute
 
 	1 second is the same as normal second. 
-	Clock is modified to have 100 sec in 1min and 100 mins in 1hour
 	Day time: 8 hours : 64 min : 0 sec
 	1 Hour is equal to 100 min
 	1 Min is 100 sec
 
 ## Decimal Day
 
-	Clock is scaled to be uniformed. 1 second is scaled.
+	Clock is scaled to fit 10 hours.
 	Day time: 10 hours : 0 min : 0 sec	
 	1 hour is equal to 100 min.
 	1 min has 100 sec.
