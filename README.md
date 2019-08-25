@@ -4,27 +4,32 @@
 
 ### Normal Time
 
-	Current time format used in most countries, 
-	24 hours : 60 mins : 60sec
+	Current time format used in most countries 
+	Day time: 24 hours : 0 mins : 0 sec
+	1 Hour is equal to 60 mins
+	1 Min is equal to 60 sec
 	
 ### Decimal Minute
 
 	1 second is the same as normal second. 
 	Clock is modified to have 100 sec in 1min and 100 mins in 1hour
-	Day time in this clock lasts: 8 hours : 64min : 0 sec
+	Day time: 8 hours : 64 min : 0 sec
+	1 Hour is equal to 100 min
+	1 Min is 100 sec
 
 ### Decimal Day
 
 	Clock is scaled to be uniformed. 1 second is scaled.
-	Every hours has 100 mins.
-	Every min has 100 secs.
-	Day lasts: 10 hours : 0 mins : 0 sec
+	Day time: 10 hours : 0 min : 0 sec	
+	1 hour is equal to 100 min.
+	1 min has 100 sec.
 	
 
 ### Swatch Internet Time
 
 	Same as decimal day, but day has 1000 beats. 
 	**They make clocks with this concept!**
+	Day time: 1000 beats
 
 ## Ignored fact
 Every 4 years clock has to be adjusted by 1/4 of day.
