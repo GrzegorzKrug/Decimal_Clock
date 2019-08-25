@@ -19,6 +19,8 @@
 	
 
 4. Swatch Internet Time
+	Same as decimal day, but day has 1000 beats. 
+	**They make clocks with this concept!**
 
 ## Ignored fact
 Every 4 years clock has to be adjusted by 1/4 of day.
